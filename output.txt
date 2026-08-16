@@ -1,0 +1,31 @@
+test_average_price (test_stock_analyzer.TestStockPriceAnalyzer) ... ok
+test_daily_change (test_stock_analyzer.TestStockPriceAnalyzer) ... ok
+test_empty_data (test_stock_analyzer.TestStockPriceAnalyzer) ... ok
+test_highest_price (test_stock_analyzer.TestStockPriceAnalyzer) ... ok
+test_latest_price (test_stock_analyzer.TestStockPriceAnalyzer) ... ok
+test_lowest_price (test_stock_analyzer.TestStockPriceAnalyzer) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.00s
+
+OK
+Stock Price Analyzer
+--------------------
+
+Enter stock symbol (example: AAPL): AAPL
+Enter analysis period (example: 1mo, 3mo, 6mo, 1y): 1mo
+
+Downloading stock data...
+Data downloaded successfully.
+
+======================================
+       STOCK PRICE ANALYZER
+======================================
+Stock Symbol     : AAPL
+Analysis Period  : 1mo
+--------------------------------------
+Highest Price    : 258.74
+Lowest Price     : 239.18
+Average Price    : 249.83
+Latest Price     : 255.40
+======================================
